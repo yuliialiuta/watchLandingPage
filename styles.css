@@ -4,8 +4,18 @@
   --details-font: "Playfair Display", serif;
 }
 
+.porten {
+  font-family: var(--logo-font);
+  font-size: 36px;
+  font-weight: 700;
+}
+
 .top-line {
   color: #969696;
+}
+
+header {
+  background-color: #000000;
 }
 
 header p {
@@ -39,4 +49,49 @@ navbar h2 {
   background: #1f1f1f;
   color: #ffffff;
   margin: 0;
+}
+
+main {
+  background-image: url("./pictures/mainPic.png");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: #ffffff;
+}
+
+.main-text {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  border: 4px solid #ffffff;
+  padding: 100px 60px;
+}
+
+.main-text .porten {
+  font-size: 64px;
+  margin: 0;
+}
+
+.main-text hr {
+  margin: 0 auto;
+  width: 170px;
+  padding: 5px;
+  border-top: 2px solid #ffffff;
+  opacity: 100%;
+}
+
+.main-text p {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+main .main-description {
+  font-size: 16px;
+  line-height: 150%;
+  width: 700px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 75%;
+  left: 30%;
+  text-align: center;
 }
