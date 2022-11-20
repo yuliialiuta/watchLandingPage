@@ -95,3 +95,117 @@ main .main-description {
   left: 30%;
   text-align: center;
 }
+
+.new-collection {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.new-collection-left {
+  padding: 50px 0px;
+}
+
+.new-collection-left h2 {
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+}
+
+.new-collection hr {
+  margin: 30px auto;
+  width: 120px;
+  padding: 5px;
+  border-top: 1px solid #ffffff;
+  opacity: 100%;
+}
+
+.new-collection-left .row {
+  padding: 0 0 0 130px;
+}
+
+.new-collection-left .col {
+  max-width: 300px;
+}
+
+.new-collection-left .img-fluid {
+  background-color: #191b1c;
+  padding: 20px;
+}
+
+.new-collection-left .watch-name {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 20px 0 10px;
+}
+
+.new-collection-left .price {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.new-collection-right {
+  background-image: url("./pictures/newCollection.png");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+.new-collection-right .new-collection-info {
+  position: relative;
+  top: 60%;
+}
+
+.new-collection-info {
+  text-transform: uppercase;
+}
+
+.new-collection-info h2 {
+  font-size: 36px;
+  line-height: 48px;
+  margin: 0;
+}
+
+.new-collection-info a {
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 27px;
+}
+
+.new-collection .collection-description {
+  text-align: center;
+  max-width: 710px;
+}
+
+.new-collection .collection2018 {
+  position: relative;
+  top: 15%;
+  left: 40%;
+}
+
+.collection2018 h2 {
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.collection2018 p {
+  font-size: 14px;
+  line-height: 150%;
+  margin: 0 0 50px;
+}
+
+.collection2018 a {
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 27px;
+}
