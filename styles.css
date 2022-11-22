@@ -4,6 +4,16 @@
   --details-font: "Playfair Display", serif;
 }
 
+body {
+  font-family: var(--main-font);
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: var(--details-font);
+}
+
 .porten {
   font-family: var(--logo-font);
   font-size: 36px;
@@ -34,7 +44,7 @@ navbar {
 navbar h2 {
   font-size: 36px;
   line-height: 54px;
-  color: white;
+  color: #ffffff;
 }
 
 .navbar-right p {
@@ -56,7 +66,6 @@ main {
   background-size: cover;
   background-position: center;
   height: 90vh;
-  color: #ffffff;
 }
 
 .main-text {
@@ -83,6 +92,7 @@ main {
 .main-text p {
   font-size: 22px;
   line-height: 28px;
+  text-transform: uppercase;
 }
 
 main .main-description {
@@ -96,13 +106,13 @@ main .main-description {
   text-align: center;
 }
 
-.new-collection {
-  background-color: #000000;
-  color: #ffffff;
+.new-collection .season h2 {
+  font-weight: 700;
 }
 
 .new-collection-left {
   padding: 50px 0px;
+  font-family: var(--details-font);
 }
 
 .new-collection-left h2 {
@@ -119,10 +129,6 @@ main .main-description {
   padding: 5px;
   border-top: 1px solid #ffffff;
   opacity: 100%;
-}
-
-.new-collection-left .row {
-  padding: 0 0 0 130px;
 }
 
 .new-collection-left .col {
@@ -142,6 +148,7 @@ main .main-description {
 
 .new-collection-left .price {
   font-size: 16px;
+  font-weight: 700;
   line-height: 21px;
 }
 
@@ -149,7 +156,6 @@ main .main-description {
   background-image: url("./pictures/newCollection.png");
   background-size: cover;
   background-position: center;
-  color: #ffffff;
   text-align: center;
 }
 
@@ -203,6 +209,72 @@ main .main-description {
 .collection2018 a {
   font-size: 18px;
   line-height: 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 27px;
+}
+
+.catalog h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+}
+
+.catalog {
+  padding: 50px 0px;
+  font-family: var(--details-font);
+}
+
+.catalog hr {
+  margin: 30px auto;
+  width: 120px;
+  padding: 5px;
+  border-top: 1px solid #ffffff;
+  opacity: 100%;
+}
+
+.catalog .col {
+  max-width: 300px;
+}
+
+.catalog .img-fluid {
+  background-color: #191b1c;
+  padding: 20px;
+}
+
+.catalog .gucci {
+  width: 16em;
+  height: 19em;
+}
+
+.catalog .last-pic {
+  filter: blur(1.5px);
+}
+
+.catalog .watch-name {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 30px 0 10px;
+}
+
+.catalog .price {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  margin: 10px 0 30px;
+}
+
+.catalog .show-details {
+  position: relative;
+  bottom: 40%;
+  left: 13%;
+  font-size: 18px;
+  line-height: 24px;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
