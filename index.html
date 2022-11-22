@@ -41,34 +41,49 @@
     <title>Porten</title>
   </head>
   <body>
-    <header class="top-line d-flex justify-content-lg-evenly">
-      <div class="geader-left d-flex">
-        <img
-          class="img-call img-fluid mb-2 me-2"
-          src="./pictures/call.svg"
-          alt="call"
-        />
-        <p class="mt-2">
-          8 (812) 123-45-67 | Працюємо 7 днів на тиждень | 9:00 — 18:00
-        </p>
+    <header class="row top-line">
+      <div class="col header-left">
+        <div class="row">
+          <img
+            class="col img-call img-fluid mb-2 pe-1"
+            src="./pictures/header/call.svg"
+            alt="call"
+          />
+          <p class="col mt-2">
+            8 (812) 123-45-67 | Працюємо 7 днів на тиждень | 9:00 — 18:00
+          </p>
+        </div>
       </div>
-      <div class="header-right d-flex">
-        <img
-          class="img-login img-fluid mb-2 me-3"
-          src="./pictures/login.svg"
-          alt="login/sign in"
-        />
-        <p class="login-title mt-2">Вхід / Реєстрація</p>
+      <div class="col header-right">
+        <div class="row">
+          <img
+            class="col img-login img-fluid mb-2 pe-1"
+            src="./pictures/header/login.svg"
+            alt="login/sign in"
+          />
+          <a class="col login-title mt-2" href="/">Вхід / Реєстрація</a>
+        </div>
       </div>
     </header>
-    <navbar class="navbar d-flex justify-content-evenly p-0">
-      <h2 class="navbar-left porten m-0 p-0">PORTEN</h2>
-      <div class="navbar-right d-flex">
-        <p class="m-0 pt-3">Сподобалось</p>
-        <p class="m-0 pt-3">Особистий кабінет</p>
-        <p class="m-0 pt-3">Налаштування</p>
-        <img class="img-fluid me-4 ms-3" src="./pictures/buy.svg" alt="buy" />
-        <img class="img-fluid ms-3" src="./pictures/search.svg" alt="search" />
+    <navbar class="row navbar p-0">
+      <h2 class="col-6 navbar-left porten m-0 p-0 text-center">PORTEN</h2>
+      <div class="col navbar-right">
+        <div class="row">
+          <a class="col m-0" href="/">Сподобалось</a>
+          <a class="col m-0" href="/">Особистий кабінет</a>
+          <a class="col m-0" href="/">Налаштування</a>
+
+          <img
+            class="col img-buy img-fluid"
+            src="./pictures/navbar/buy.svg"
+            alt="buy"
+          />
+          <img
+            class="col img-search img-fluid"
+            src="./pictures/navbar/search.svg"
+            alt="search"
+          />
+        </div>
       </div>
     </navbar>
     <main class="main-page bg-img">
@@ -94,7 +109,7 @@
             <div class="col p-0">
               <img
                 class="img-fluid"
-                src="./pictures/pic1.png"
+                src="./pictures/newCollection/pic1.png"
                 alt="Louis XVI ATHOS"
               />
               <p class="watch-name">Louis XVI ATHOS</p>
@@ -103,7 +118,7 @@
             <div class="col p-0">
               <img
                 class="img-fluid"
-                src="./pictures/pic2.png"
+                src="./pictures/newCollection/pic2.png"
                 alt="Louis XVI ATHOS"
               />
               <p class="watch-name">Louis XVI ATHOS</p>
@@ -112,7 +127,7 @@
             <div class="col p-0">
               <img
                 class="img-fluid"
-                src="./pictures/pic3.png"
+                src="./pictures/newCollection/pic3.png"
                 alt="Louis XVI ATHOS"
               />
               <p class="watch-name">Louis XVI ATHOS</p>
@@ -130,7 +145,7 @@
       </div>
       <div class="row collection">
         <div class="col-5">
-          <img src="./pictures/collectionMan.png" alt="man" />
+          <img src="./pictures/newCollection/collectionMan.png" alt="man" />
         </div>
         <div class="col collection-description">
           <div class="collection2018">
@@ -162,7 +177,7 @@
         <div class="col">
           <img
             class="img-fluid"
-            src="./pictures/catalogPic1.png"
+            src="./pictures/catalog/catalogPic1.png"
             alt="catalogPic1"
           />
           <p class="watch-name">Carl von Zeyten</p>
@@ -171,7 +186,7 @@
         <div class="col">
           <img
             class="img-fluid"
-            src="./pictures/catalogPic2.png"
+            src="./pictures/catalog/catalogPic2.png"
             alt="catalogPic2"
           />
           <p class="watch-name">JORD AR5905</p>
@@ -180,7 +195,7 @@
         <div class="col">
           <img
             class="img-fluid"
-            src="./pictures/catalogPic3.png"
+            src="./pictures/catalog/catalogPic3.png"
             alt="catalogPic3"
           />
           <p class="watch-name">Emporio Armani Sportivo</p>
@@ -189,7 +204,7 @@
         <div class="col">
           <img
             class="img-fluid"
-            src="./pictures/catalogPic4.png"
+            src="./pictures/catalog/catalogPic4.png"
             alt="catalogPic4"
           />
           <p class="watch-name">Rolex Oyster Perpetual</p>
@@ -200,7 +215,7 @@
         <div class="col">
           <img
             class="img-fluid"
-            src="./pictures/catalogPic5.png"
+            src="./pictures/catalog/catalogPic5.png"
             alt="catalogPic5"
           />
           <p class="watch-name">Louis XVI ATHOS</p>
@@ -209,7 +224,7 @@
         <div class="col">
           <img
             class="img-fluid"
-            src="./pictures/catalogPic6.png"
+            src="./pictures/catalog/catalogPic6.png"
             alt="catalogPic6"
           />
           <p class="watch-name">U-Boat Italo Fontana</p>
@@ -218,7 +233,7 @@
         <div class="col">
           <img
             class="img-fluid gucci"
-            src="./pictures/catalogPic7.png"
+            src="./pictures/catalog/catalogPic7.png"
             alt="catalogPic7"
           />
           <p class="watch-name">Gucci Men's G</p>
@@ -227,7 +242,7 @@
         <div class="col">
           <img
             class="img-fluid last-pic"
-            src="./pictures/catalogPic2.png"
+            src="./pictures/catalog/catalogPic2.png"
             alt="catalogPic8"
           />
           <a class="show-details" href="/">ПОКАЗАТИ ВСІ</a>
@@ -239,7 +254,7 @@
       <hr />
       <div class="row mb-5">
         <div class="col">
-          <img class="img-fluid" src="./pictures/news.pic1.png" />
+          <img class="img-fluid" src="./pictures/news/news.pic1.png" />
         </div>
         <div class="col news-info">
           <h4>ROGER DUBUIS. ЧАСТИНА 1</h4>
@@ -260,7 +275,7 @@
       </div>
       <div class="row mb-5">
         <div class="col">
-          <img class="img-fluid" src="./pictures/news.pic2.png" />
+          <img class="img-fluid" src="./pictures/news/news.pic2.png" />
         </div>
         <div class="col news-info">
           <h4>ІСТОРІЯ ЛЮКСОВИХ ГОДИННИКІВ. ЧАСТИНА 1</h4>
@@ -278,9 +293,9 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row pb-5">
         <div class="col">
-          <img class="img-fluid" src="./pictures/news.pic3.png" />
+          <img class="img-fluid" src="./pictures/news/news.pic3.png" />
         </div>
         <div class="col news-info">
           <h4>ВЕЛИКИЙ ТА СМІЛИВИЙ TISSOT PRS 516 CHRONOGRAPH</h4>
@@ -300,8 +315,90 @@
         </div>
       </div>
     </section>
-    <section class="partners">block 4</section>
-    <section class="additional-info">block 5</section>
-    <footer></footer>
+    <section class="partners pt-5 pb-5">
+      <h2>Наші партнери</h2>
+      <hr />
+      <div class="row justify-content-center align-items-end pt-1 pb-5">
+        <div class="col">
+          <img
+            class="img-fluid"
+            src="./pictures/partners/partners.pic1.svg"
+            alt="partner1"
+          />
+        </div>
+        <div class="col">
+          <img
+            class="img-fluid"
+            src="./pictures/partners/partners.pic2.svg"
+            alt="partner2"
+          />
+        </div>
+        <div class="col">
+          <img
+            class="img-fluid"
+            src="./pictures/partners/partners.pic3.svg"
+            alt="partner3"
+          />
+        </div>
+        <div class="col">
+          <img
+            class="img-fluid"
+            src="./pictures/partners/partners.pic4.svg"
+            alt="partner4"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="additional-info">
+      <div class="row info">
+        <div class="col about px-4">
+          <h3>про компанію</h3>
+          <p>
+            Компанія PORTEN – лідер на українському ринку годинників. На цей час
+            ми об'єднуємо більше сорока магазинів у різних куточках України та
+            інтернет-магазин, який став першим в нашому сегменті ринку. Торгова
+            мережа PORTEN – офіційний дистриб'ютор більше 50 найвідоміших
+            годинникових марок, починаючи від японської CASIO, закінчуючи
+            швейцарськими LONGINES, ZENITH, TAG HEUER. Однак компанія не
+            обмежується лише годинниками – в інтернет-магазині та бутіках мережі
+            ви знайдете прекрасні ювелірні вироби від таких іменитих брендів, як
+            SWAROVSKI и CHRISTINA.
+          </p>
+        </div>
+        <div class="col categories px-4">
+          <h3>Категорії</h3>
+          <div class="row">
+            <a class="col line1" href="/">годинники</a>
+            <a class="col line1" href="/">запонки</a>
+            <a class="col line1" href="/">ремені</a>
+          </div>
+          <div class="row">
+            <a class="col line2" href="/">ювелірні вироби</a>
+            <a class="col line2" href="/">на замовлення</a>
+          </div>
+          <div class="row">
+            <a class="col line3" href="/">браслети</a>
+          </div>
+        </div>
+        <div class="col mailing-list px-4">
+          <h3>розсилка</h3>
+          <p>
+            Компанія пропонує тільки оригінальну продукцію від найвідоміших
+            світових брендів за найкращою ціною. Ми дбаємо про комфорт наших
+            покупців і постійно розширюємо можливості сервісного обслуговування.
+          </p>
+          <form class="my-4">
+            <input type="text" placeholder="Ваша пошта" value="" />
+            <button type="submit">ПІДПИСАТИСЯ</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row text-center">
+        <p class="col m-0">© 2022 PORTEN, Інтернет-магазин годинників</p>
+        <p class="col m-0">Угода користувача</p>
+      </div>
+    </footer>
   </body>
 </html>
