@@ -2,6 +2,7 @@
   --logo-font: "Post No Bills Jaffna", sans-serif;
   --main-font: "PT Sans", sans-serif;
   --details-font: "Playfair Display", serif;
+  --bg-second: #0f0f0f;
 }
 
 body {
@@ -37,7 +38,7 @@ header .header-right p {
 }
 
 navbar {
-  background: #0f0f0f;
+  background: var(--bg-second);
   color: #969696;
 }
 
@@ -248,6 +249,7 @@ main .main-description {
 }
 
 .catalog .gucci {
+  padding: 0 30px 0 30px;
   width: 16em;
   height: 19em;
 }
@@ -280,4 +282,62 @@ main .main-description {
   color: #ffffff;
   border: 1px solid #ffffff;
   padding: 10px 27px;
+}
+
+.news {
+  background-color: var(--bg-second);
+}
+
+.news h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+}
+
+.news hr {
+  margin: 30px auto;
+  width: 120px;
+  padding: 5px;
+  border-top: 1px solid #ffffff;
+  opacity: 100%;
+}
+
+.news .news-info {
+  padding: 50px 100px 20px;
+  max-width: 900px;
+}
+
+.news .news-info h4 {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.news .news-info p {
+  font-size: 14px;
+  line-height: 150%;
+  margin: 20px 0;
+}
+
+.news .news-info .button {
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 27px;
+  position: relative;
+  top: 5%;
+}
+
+.news .hashtags a {
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 5px;
 }
