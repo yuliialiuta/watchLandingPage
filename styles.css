@@ -163,6 +163,10 @@ main .main-description {
 
 /*-------------New-collection---------*/
 
+.new-collection {
+  margin: 0 0 150px;
+}
+
 .new-collection .season {
   display: flex;
 }
@@ -288,6 +292,7 @@ main .main-description {
 
 .catalog {
   padding: 50px 0px;
+
   font-family: var(--details-font);
 }
 
