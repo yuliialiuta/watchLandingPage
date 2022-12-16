@@ -39,13 +39,9 @@ header .img-login {
 }
 
 header .header-info {
-  max-width: 450px;
+  max-width: 500px;
   line-height: 16px;
   font-size: 12px;
-}
-
-header .header-info > span {
-  max-width: 10px;
 }
 
 header a {
